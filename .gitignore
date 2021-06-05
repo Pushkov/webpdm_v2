@@ -1,9 +1,9 @@
-/.idea/
-/archive/
+
 /backend/target/
 /frontend/dist/
 /frontend/node_modules/
+/.idea/
+/archive/
 /backend/src/main/resources/static/css/
 /backend/src/main/resources/static/fonts/
 /backend/src/main/resources/static/js/
-/node_modules/
