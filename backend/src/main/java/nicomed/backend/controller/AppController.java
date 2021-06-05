@@ -1,0 +1,15 @@
+package nicomed.backend.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/pdm")
+public class AppController {
+
+    @GetMapping("/index")
+    public String getIndex(){
+        return "index";
+    }
+}
